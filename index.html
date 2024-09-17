@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* .div1{
+            height: 50px;
+            width: 100%;
+            background-color:lightgrey;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-left: 20px solid black;
+            border-right: 20px solid black ;
+        } */
+        .logo-div{
+            width: 100%;
+            min-height: 50px;
+            background-color: antiquewhite;
+            padding-left: 10px;
+            line-height: 50px;
+            margin-bottom: 10px;
+        }
+        .nav-div{
+            width: 100%;
+            min-height: 30x;
+            background-color: antiquewhite;
+            text-align: center;
+            line-height: 30px;
+            margin-bottom: 10px;
+
+
+        }
+        .banner{
+            width: 100%;
+            min-height: 100px;
+            background-color: antiquewhite;
+            text-align: center;
+           
+            line-height: 100px;
+            margin-bottom: 10px;
+        }
+        .main{
+            width: 100%;
+            /* min-height: 400px; */
+            /* background-color: antiquewhite; */
+           margin-bottom: 10px;
+
+        }
+        .sidebar{
+            width: 20%;
+            min-height: 400px;
+            background-color: antiquewhite;
+            float: left;
+            text-align: center;
+            line-height: 400px;
+        }
+        .bodyarea{
+            width: 75%;
+            min-height: 400px;
+            background-color: antiquewhite;
+            float: right;
+            text-align: center;
+            line-height: 400px;
+        }
+        .clearfix::after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+        .footer{
+            width: 100%;
+            min-height: 50px;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        .wrapper{
+            width: 95%;
+            margin: auto;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <!-- <div class="div1">div</div> -->
+    <div class="logo-div">logo</div>
+    <div class="nav-div">nav</div>
+    <div class="banner">banner</div>
+    <div class="main clearfix">
+        <div class="sidebar">sidebar</div>
+        <div class="bodyarea">bodyarea</div>
+
+    </div>
+    <div class="footer">footer</div>
+</div>
+</body>
+</html>
